@@ -113,6 +113,22 @@ a {
   cursor: pointer;
 }
 
+
+@media only screen and (max-width: 330px) {
+  html {
+    font-size: 10px;
+  }
+  .informacoes img {
+    height: 25px !important;
+    opacity: 0.5;
+  }
+  img {
+    max-height: 100px;
+  }
+  .descricao {
+    top: 40%;
+  }
+}
 @media only screen and (max-width: 400px) {
   html {
     font-size: 13px;
