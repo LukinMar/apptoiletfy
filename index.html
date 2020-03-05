@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/e97cfc6afc.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <title>ToiletFY</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <div class="progress">
+        <div class="indeterminate"></div>
+      </div>
+      <div class="zoomImage">
+        <img class="logo" src="img/logo.png" alt="logo toiletfy" />
+      </div>
+    </div>
+
+    <div class="conteudo">
+      <div class="nome">
+        <h5>ToiletFY</h5>
+        <h6>LukinMar</h6>
+      </div>
+      <div class="app">
+        <img src="img/toiletfyapp.png" alt="logo toiletfy" />
+      </div>
+      <p class="descricao" align="center">
+        Nunca mais fique no aperto sem encontrar banheiros por aí, <br />
+        use o ToiletFY e ache o banheiro mais próximo de você! <br /><br />
+        O ToiletFY não só informa onde tem banheiros próximos, <br />
+        mas também a avaliação deles, se eles são adaptados, <br />
+        e se possui fraldário ou se necessita pagamento para uso.
+      </p>
+      <br />
+      <div class="informacoes"> 
+          <a href="http://bit.ly/formulario-toiletfy"><img src="img/contribuir.png" alt="contribuir"></a>
+          <a href="http://bit.ly/toiletfy"><img src="img/internet.png" alt="internet"></a>
+          <a href="http://bit.ly/android-toiletfy"><img src="img/googleplay.png" alt="googleplay"></a>
+      </div>
+      <div class="rodape">
+        <p>
+          Desenvolvido por Lucas Martins
+          <br />
+          <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+          <i class="fab fa-github-alt" aria-hidden="true"></i>
+          /LukinMar
+        </p>
+      </div>
+    </div>
+  </body>
+  <script>
+    jQuery(document).ready(function($) {
+      $(window).load(function() {
+        setTimeout(function() {
+          $(".preloader").fadeOut("slow", function() {});
+        }, 6800);
+      });
+    });
+  </script>
+</html>
