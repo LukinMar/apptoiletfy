@@ -2,14 +2,6 @@ html {
   margin: 0px;
   height: 100%;
   width: 100%;
-  background: #422e53;
-  background: -webkit-gradient(
-    radial,
-    left top,
-    left bottom,
-    from(#422e53),
-    to(#1a1221)
-  );
   background: radial-gradient(ellipse at center, #422e53 0, #1a1221 100%);
 }
 .preloader {
@@ -32,8 +24,6 @@ html {
 
 .zoomImage {
   position: absolute;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -87,8 +77,6 @@ img {
 
 .app {
   position: absolute;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -123,4 +111,28 @@ img {
 
 a {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 13px;
+  }
+  .informacoes img {
+    height: 45px !important;
+    opacity: 0.5;
+  }
+  img {
+    max-height: 100px;
+  }
+
+}
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 14.5px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
 }
