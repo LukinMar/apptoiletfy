@@ -173,19 +173,19 @@ a {
     font-size: 11.9px;
   }
   .app {
-    top: 18%;
+    top: 16%;
   }
   img {
     max-height: 100px;
   }
   .nome {
-    top: 7%;
+    top: 4%;
   }
   .descricao {
-    margin-top: -70px;
+    margin-top: -70px !important;
   }
   .informacoes {
-    top: 55%;
+    top: 53%;
   }
   .informacoes img {
     height: 50px !important;
