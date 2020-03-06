@@ -113,42 +113,48 @@ a {
   cursor: pointer;
 }
 
-
-@media only screen and (max-width: 330px) {
-  html {
-    font-size: 10px;
-  }
-  .informacoes img {
-    height: 25px !important;
-    opacity: 0.5;
-  }
-  img {
-    max-height: 100px;
-  }
-  .descricao {
-    top: 40%;
-  }
-}
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 355px) {
   html {
     font-size: 13px;
   }
-  .informacoes img {
-    height: 45px !important;
-    opacity: 0.5;
-  }
   img {
-    max-height: 100px;
+    max-height: 140px;
   }
 
 }
-@media only screen and (min-width: 992px) {
+
+@media only screen and (max-width: 330px) {
   html {
-    font-size: 14.5px;
+    font-size: 13px;
+  }
+  img {
+    max-height: 140px;
+  }
+  .descricao {
+    margin-top: -100px;
+  }
+  .app{
+    top:14%;
+  }
+  .nome{
+    top: 5%;
   }
 }
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (max-width: 300px) {
   html {
-    font-size: 15px;
+    font-size: 12.5px;
+  }
+  img {
+    max-height: 140px;
+  }
+  .descricao {
+    margin-top: -100px;
+  }
+  .app{
+    top:14%;
+  }
+  .nome{
+    top: 5%;
   }
 }
