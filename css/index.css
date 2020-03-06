@@ -145,6 +145,9 @@ a {
   .informacoes img {
     height: 50px;
   }
+  .descricao {
+    margin-top: -60px !important;
+  }
 }
 
 @media only screen and (max-height: 590px) {
@@ -162,6 +165,33 @@ a {
   }
   .informacoes img {
     height: 50px !important;
+  }
+}
+
+@media only screen and (max-height: 650px) {
+  html {
+    font-size: 11.9px;
+  }
+  .app {
+    top: 18%;
+  }
+  img {
+    max-height: 100px;
+  }
+  .nome {
+    top: 7%;
+  }
+  .descricao {
+    margin-top: -70px;
+  }
+  .informacoes {
+    top: 55%;
+  }
+  .informacoes img {
+    height: 50px !important;
+  }
+  .rodape {
+    font-size: 11.9px;
   }
 }
 
