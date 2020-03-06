@@ -120,7 +120,6 @@ a {
   img {
     max-height: 140px;
   }
-
 }
 
 @media only screen and (max-width: 330px) {
@@ -133,10 +132,10 @@ a {
   .descricao {
     margin-top: -100px;
   }
-  .app{
-    top:14%;
+  .app {
+    top: 14%;
   }
-  .nome{
+  .nome {
     top: 5%;
   }
 }
@@ -151,10 +150,31 @@ a {
   .descricao {
     margin-top: -100px;
   }
-  .app{
-    top:14%;
+  .app {
+    top: 14%;
   }
-  .nome{
+  .nome {
     top: 5%;
+  }
+}
+
+@media only screen and (max-height: 680px) {
+  html {
+    font-size: 13px;
+  }
+  img {
+    max-height: 140px;
+  }
+  .descricao {
+    margin-top: -40px;
+  }
+  .app {
+    top: 18%;
+  }
+  .nome {
+    top: 7%;
+  }
+  .informacoes img {
+    height: 50px !important;
   }
 }
