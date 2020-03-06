@@ -86,7 +86,7 @@ img {
 .informacoes {
   margin-top: 2em;
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 5px;
@@ -123,40 +123,24 @@ a {
 }
 
 @media only screen and (min-width: 330px) {
-  html {
-    font-size: 11px;
-  }
   img {
     max-height: 140px;
   }
   .descricao {
-    margin-top: -100px;
+    margin-top: -80px;
   }
   .app {
     top: 14%;
   }
   .nome {
     top: 5%;
+  }
+  .informacoes {
+    top: 57%;
   }
 }
 
-@media only screen and (max-width: 300px) {
-  html {
-    font-size: 12.5px;
-  }
-  img {
-    max-height: 140px;
-  }
-  .descricao {
-    margin-top: -100px;
-  }
-  .app {
-    top: 14%;
-  }
-  .nome {
-    top: 5%;
-  }
-}
+
 
 @media only screen and (max-height: 590px) {
   html {
@@ -176,9 +160,9 @@ a {
   }
 }
 
-@media only screen and (max-height: 681px) {
+@media only screen and (max-height: 650px) {
   html {
-    font-size: 12.5px;
+    font-size: 11.9px;
   }
   .app {
     top: 18%;
@@ -192,19 +176,26 @@ a {
   .descricao {
     margin-top: -60px;
   }
+  .informacoes {
+    top: 57%;
+  }
   .informacoes img {
     height: 50px !important;
   }
   .rodape {
-    display: none;
+    font-size: 11.9px;
   }
 }
 
 @media only screen and (min-height: 700px) {
   html {
-    font-size: 13px;
+    font-size: 14px;
   }
   img {
     max-height: 140px;
   }
+  .descricao {
+    margin-top: -80px;
+  }
+
 }
