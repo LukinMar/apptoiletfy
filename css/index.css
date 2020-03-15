@@ -499,7 +499,7 @@
     height: 10px;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 52%;
     margin-top: -100px !important;
     color: #fff;
     opacity: 0.5;
@@ -529,7 +529,7 @@
   }
 
   .informacoes img {
-    height: 60px;
+    height: 58px;
     opacity: 0.5;
   }
 
@@ -617,7 +617,7 @@
     height: 10px;
     text-align: center;
     position: absolute;
-    top: 53%;
+    top: 50%;
     margin-top: -100px !important;
     color: #fff;
     opacity: 0.5;
@@ -642,7 +642,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 5px;
-    top: 5%;
+    top: 60%;
     text-align: center;
   }
 
